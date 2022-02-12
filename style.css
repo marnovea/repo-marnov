@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header_top{
+    background-color: #222222;
+}
+
+.header_top_img{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+}
+
+.header_top_img_left{
+    justify-content: left;
+}
+
+.img_left{
+    margin-right: 41px;
+}
+
+.header_top_img_right{
+    justify-content: right;
+}
+
+.img_right{
+    margin-right: 33px;
+}
+
+.header_center{
+    background-color: #F1E4E6;
+}
+
+.header_center_box{
+    display: flex;
+    flex-direction: row;
+}
+
+.header_center_box_left{
+    width: 50%;
+    margin-left: 128px;
+}
+
+.header_center_pr{
+    width: 12px;
+    height: 92px;
+    background: #F16D7F;
+}
+
+.header_center_box_right{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 290px;
+    margin-left: 46px;
+}
+
+.header_center_p{
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.header_center_p_one{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.header_center_p_two{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.color_p{
+    color:#F16D7F;
+}
+
+/* content */
+
+.content_box_one{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    width: 1140px;
+    margin-top: 65px;
+}
+
+.content_box_one_item:last-of-type{
+    margin-right: 0;
+}
+
+.content_box_one_item{
+    position: relative;
+}
+
+.content_text{
+    position: absolute;
+    top: 105px;
+    right: 103px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19,2px;
+}
+
+.color_p_content{
+    top: 105px;
+    right: 103px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28,8px;
+    color:#F16D7F;
+}
+
+.content_box_two_item{
+    margin-top: 30px;
+    position: relative;
+}
+
+.content_text_two{
+    position: absolute;
+    top: 65px;
+    right: 490px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
