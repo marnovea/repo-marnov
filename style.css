@@ -674,6 +674,7 @@ input[type="button"] {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 100%;
 }
 
 .item_krosh_right {
@@ -769,6 +770,11 @@ input[type="button"] {
   text-align: center;
   margin-top: -64px;
   background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  position: relative;
 }
 
 .opis_content_a {
@@ -850,6 +856,10 @@ input[type="button"] {
 
 .footer_product {
   margin-top: 128px;
+}
+
+.z-ind_catalog {
+  z-index: 1;
 }
 
 .filter_item {
@@ -944,6 +954,7 @@ input[type="button"] {
   position: absolute;
   padding: 10px 30px 10px 10px;
   margin-top: 5px;
+  background: #FFFFFF;
 }
 
 .filter-input_sm:hover .menu_razm-sm {
